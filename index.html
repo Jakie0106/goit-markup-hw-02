@@ -3,33 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="header-logo-link"
+          ><span class="header-logo">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="" class="header-menu-link">Studio</a></li>
+          <li><a href="" class="header-menu-link">Portfolio</a></li>
+          <li><a href="" class="header-menu-link">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-address-link"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="header-address-link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-title">
+        <h1 class="section-title-text">
+          Effective Solutions for Your Business
+        </h1>
+        <button type="button" class="section-title-btn">Order Service</button>
       </section>
       <section>
         <h2>Lorem, ipsum dolor.</h2>
@@ -106,6 +125,72 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/banking-app.jpg"
+              alt="image banking app"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/cashless-payment.jpg"
+              alt="phone and paymen terminal"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/meditation-app.jpg"
+              alt="notebook and phone"
+              we
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/taxi-service.jpg"
+              alt="taxi car interior"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/screen-illustrations.jpg"
+              alt="phone screen with different pictures"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/online-courses.jpg"
+              alt="girl with glasses and an orange sweater"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
