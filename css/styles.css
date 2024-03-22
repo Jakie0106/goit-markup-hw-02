@@ -24,11 +24,11 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav-list {
@@ -51,6 +51,7 @@ ul {
 }
 
 .header-contacts {
+  font-style: normal;
 }
 
 .header-contacts-list {
@@ -65,7 +66,6 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
 
 .header-contacts-link:hover,
@@ -89,6 +89,7 @@ ul {
   color: #fff;
 }
 .main-title-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -143,8 +144,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-title-list {
+  background-color: #fff;
 }
 .team-title-item {
 }
@@ -179,6 +182,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-title-list {
 }
@@ -214,10 +218,10 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-logo-text {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
